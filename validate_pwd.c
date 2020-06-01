@@ -72,6 +72,6 @@ int main()
 int Val_Pass;
 char ch[] = "Abcd12$";
 Val_Pass = Validate_Pwd(ch);
-printf("Val_Pass %d", Val_Pass);
+printf("\nVal_Pass : \t%d", Val_Pass);
 return 0;
 }
