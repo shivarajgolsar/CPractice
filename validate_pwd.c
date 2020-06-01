@@ -1,6 +1,9 @@
 #include <studio.h>
 #include <stdlib.h>
 
+int Validate_Pwd(char[]);
+int stringlength(char[]);
+
 /* This function validate the Pwd */
 int Validate_Pwd(char a[])
 {
@@ -55,6 +58,13 @@ int Validate_Pwd(char a[])
     return 0;
     else
     return 1;
+}
+
+int stringlength(char s[])
+{
+ int i;
+  for (i = 0; s[i] != '\0'; ++i);
+  return i;
 }
 
 int main()
