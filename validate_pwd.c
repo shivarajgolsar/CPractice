@@ -9,7 +9,7 @@ int Validate_Pwd(char a[])
 {
     char c;
     int len,flag1=0,flag2=0,flag3=0,flag4=0;
-    printf("a %s", a)
+    printf("a %s", a);
     len=stringlength(a);
     
     if(len<6)
