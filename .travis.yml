@@ -8,5 +8,5 @@ install:
   - echo  "Reached Install Section" 
 script:
   - echo "Reached Script Section"
-  - gcc   Linked_List_Malloc.c -o output
+  - gcc   validate_pwd.c -o output
   - ./output
