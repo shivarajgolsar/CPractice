@@ -9,7 +9,7 @@ int Validate_Pwd(char a[])
 {
     char c;
     int len,flag1=0,flag2=0,flag3=0,flag4=0;
-    
+  
     len=stringlength(a);
     
     if(len<6)
@@ -73,6 +73,6 @@ int Val_Pass;
 char ch[] = "Abcd12$";
 printf("Hi");
 Val_Pass = Validate_Pwd(ch);
-printf("\nVal_Pass : \t%d", Val_Pass);
+printf("\nVal_Pass : \t%d", &Val_Pass);
 return 0;
 }
