@@ -70,7 +70,7 @@ int stringlength(char s[])
 int main()
 {
 int Val_Pass;
-Val_Pass = Validate_Pwd('abc$1Jkk');
+Val_Pass = Validate_Pwd("J1$abc");
 printf("Val_Pass %d", Val_Pass);
 return 0;
 }
